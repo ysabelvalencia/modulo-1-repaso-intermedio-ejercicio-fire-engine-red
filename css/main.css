@@ -1,7 +1,7 @@
 :root{
     font-size: 62.50%;
+    font-family:'Montserrat', sans-serif;
     --color-fire:#cc212a;
-    --font-montserrat: 'Montserrat', sans-serif;
 }
 
 .main {
@@ -19,7 +19,7 @@
 .title {
     color: var(--color-fire);
     text-align: center;
-    font-family: var(--font-montserrat);
+    font-family: inherit;
     font-size: 3rem;
     font-weight: 900;
     
@@ -47,7 +47,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family:var(--font-montserrat);
+    font-family:inherit;
     font-weight:700;
     font-size: 1.5rem;
     background-color: var(--color-fire);
