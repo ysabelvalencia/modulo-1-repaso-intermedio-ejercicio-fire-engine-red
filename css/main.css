@@ -93,6 +93,12 @@
         padding-bottom: 0;
         
         
-    }   
+    }
+}
+    
+@media screen and (min-width: 900px) {
 
+    .title {
+        word-spacing:0%;
+    }
 }
