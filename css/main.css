@@ -23,11 +23,14 @@
     font-size: 3rem;
     font-weight: 900;
     
+    
 }
 
 .title::first-line {
     word-spacing: 100vw;
-  }
+    text-transform:uppercase;
+}
+
 
 .footer {
     width: 100vw;
